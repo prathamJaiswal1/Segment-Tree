@@ -53,7 +53,7 @@ class lazy_seg_tree{
             return ;
         }
 
-        // complete overlap
+        // partial overlap
 
         int mid=(low+high)>>1;
         update(left,low,mid,qs,qe,val);
